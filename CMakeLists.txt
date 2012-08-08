@@ -1,0 +1,5 @@
+PROJECT(Matrix)
+CMAKE_MINIMUM_REQUIRED(VERSION 2.6.0)
+FILE(GLOB matrix_INCS "src/*.h")
+FILE(GLOB matrix_SRCS "src/*.cpp")
+ADD_EXECUTABLE(matrix ${matrix_INCS} ${matrix_SRCS})
